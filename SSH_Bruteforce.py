@@ -8,9 +8,7 @@
 import paramiko
 host = "target_ip" # enter target IP address here.
 user = "username" # Enter the username to brute force the password.
-def sshbrute(loginPass):
-   
- 
+def sshbrute(loginPass): 
     with paramiko.SSHClient() as client:
         client.set_missing_host_key_policy(paramiko.AutoAddPolicy())
         try:
