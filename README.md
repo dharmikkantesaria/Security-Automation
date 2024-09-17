@@ -1,6 +1,6 @@
 # Security Automation Scripts
 
-Python scripts for automating security tasks. More scripts coming soon...
+Python scripts for automating security tasks. Although I am not allowed to upload all the scripts due to academic policies, I am happy to share my work with you privately. 
 
 ## Scripts Overview
 
