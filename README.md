@@ -1,6 +1,10 @@
 # Security Automation Scripts
 
-Python scripts for automating security tasks. Although I am not allowed to upload all the scripts due to academic policies, I am happy to share my work with you privately. 
+This repository contains Python scripts for automating security tasks. I learned to perform Security Operation Automation in my master's program. Some of the scripts here are part of the coursework. 
+
+Although I am not allowed to upload all the scripts due to academic policies, _I am happy to share my work with you privately._  
+
+I will keep adding more scripts over time.
 
 ## Scripts Overview
 
